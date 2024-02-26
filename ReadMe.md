@@ -34,3 +34,4 @@ This is the list of activities carried out to create a new Node and configure it
 ### Verification
 
 #docker logs -f containerid
+This command will show the sync details with the network
