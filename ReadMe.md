@@ -31,3 +31,6 @@ This is the list of activities carried out to create a new Node and configure it
         d) Run the docker command
         docker run --rm -it -d -v /home/ubuntu/arbitrum:/home/user/.arbitrum -p 0.0.0.0:8547:8547 -p 0.0.0.0:8548:8548 offchainlabs/nitro-node:v2.2.5-a20a1c7 --parent-chain.connection.url https://eth-mainnet.g.alchemy.com/v2/w0pdvopp0fdgh8fPLRqA5m-fCMFgWfi2 --chain.id=42170 --http.api=net,web3,eth,debug --http.corsdomain=* --http.addr=0.0.0.0 --http.vhosts=* --init.url="https://snapshot.arbitrum.foundation/nova/nitro-pruned.tar"
 
+### Verification
+
+#docker logs -f containerid
