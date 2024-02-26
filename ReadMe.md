@@ -35,3 +35,8 @@ This is the list of activities carried out to create a new Node and configure it
 
 #docker logs -f containerid
 This command will show the sync details with the network
+
+### Problems faced:
+
+### 1. Finding the "parent-chain.connection.url"
+    Initially refered to the "https://docs.arbitrum.io/node-running/node-providers#rpc-endpoints" and used "Arbitrum Nova" RPC URL "https://nova.arbitrum.io/rpc". It caused issues with the Chain Id values. After searching the Internet noted that Alchemy application can be used to get the parent connection url.
